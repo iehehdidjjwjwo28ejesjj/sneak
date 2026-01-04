@@ -1,1 +1,11 @@
-
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  min-height: 50vh;
+  font-size: 1.26em;
+  padding: 28px;
+  margin: 0;
+}
