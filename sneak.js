@@ -25,3 +25,5 @@ button.addEventListener("click", start);
 slot1.textContent = '❔';
 slot2.textContent = '❔';
 slot3.textContent = '❔';
+
+console.lod(cherry)
