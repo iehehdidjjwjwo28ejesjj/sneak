@@ -37,4 +37,5 @@ function win() {
     } else {
         balance -= 100;
     }
+    ball.textContent = balance;
 }
