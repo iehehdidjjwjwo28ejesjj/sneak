@@ -10,13 +10,12 @@ function randomEmoji() {
     return emojis[index];
 }
 function starts() {
-    if (balance <= 0) {
+    if (balance = 0) {
         alert("Баланс закончился");
-        else (balance >= 0 { 
-        win()
+    } else if (balance > 0) {
+        win();
     }
-}
-    
+}    
 function start() {
     slot1.textContent = randomEmoji();
     slot2.textContent = randomEmoji();
