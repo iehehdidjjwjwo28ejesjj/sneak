@@ -17,6 +17,7 @@ function start() {
     slot1.textContent = randomEmoji();
     slot2.textContent = randomEmoji();
     slot3.textContent = randomEmoji();
+    win();
 }
 
 const button = document.getElementById("button1");
@@ -29,11 +30,16 @@ slot3.textContent = '❔';
 let balance = 100
 
 function win() {
-    if slot1 = slot2 , slot2 = slot3
-    alert ("ты выиграль");
-} else {
-    alert ("ты проиграль");
-    
+    if (
+        slot1.textContent === slot2.textContent &&
+        slot2.textContent === slot3.textContent
+    ) {
+        alert("ты выиграл");
+    } else {
+        alert("ты проиграл");
+    }
+}
+
     
     
     
