@@ -46,5 +46,6 @@ function win() {
         balance -= 10;
     }
 
-    ball.textContent = amount + balance;
+    const answer = amount + balance;
+    ball.textContent = answer;
 }
