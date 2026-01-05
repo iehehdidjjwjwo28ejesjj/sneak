@@ -1,6 +1,7 @@
 const slot1 = document.getElementById("slot1");
 const slot2 = document.getElementById("slot2");
 const slot3 = document.getElementById("slot3");
+const ball = document.getElementById("ball");
 
 const emojis = ['🍒', '🍋', '🍊'];
 
@@ -25,6 +26,8 @@ slot3.textContent = '❔';
 
 let balance = 100
 
+ball.textContent = balance;
+
 function win() {
     if (
         slot1.textContent === slot2.textContent &&
@@ -35,8 +38,3 @@ function win() {
         alert("ты проиграл");
     }
 }
-
-    
-    
-    
-
