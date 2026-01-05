@@ -1,11 +1,33 @@
-body {
-  background-color: black;
-  color: white;
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  min-height: 50vh;
-  font-size: 1.26em;
-  padding: 28px;
-  margin: 0;
-}
+.styled {
+    border: 0;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 20px;
+    display: block;
+    margin: 20px auto; 
+    transition: background-color 0.6s ease, transform 0.2s ease;     }
+        .styled:hover {
+            background-color: blue;
+        }
+        .styled:active {
+            background-color: red;
+            transform: scale(0.8, 0.8);
+        }
+        #button1 {
+            background-color: green;
+        }      
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column; 
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
