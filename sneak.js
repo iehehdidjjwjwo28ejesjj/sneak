@@ -1,3 +1,23 @@
-function start() {
- alert("ты проиграл")
+const slot1 = document.getElementById("slot1");
+const slot2 = document.getElementById("slot2");
+const slot3 = document.getElementById("slot3");
+
+const emojis = ['🍒', '🍋', '🍊'];
+
+function randomEmoji() {
+    const index = Math.floor(Math.random() * emojis.length);
+    return emojis[index];
 }
+
+function start() {
+    slot1.textContent = randomEmoji();
+    slot2.textContent = randomEmoji();
+    slot3.textContent = randomEmoji();
+}
+
+const button = document.getElementById("button1");
+button.addEventListener("click", start);
+
+slot1.textContent = '❔';
+slot2.textContent = '❔';
+slot3.textContent = '❔';
