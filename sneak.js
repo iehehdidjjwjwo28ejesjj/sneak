@@ -4,9 +4,9 @@ const slot3 = document.getElementById("slot3");
 
 const emojis = ['🍒', '🍋', '🍊'];
 
-const cherry = "🍒";
-const limon = "🍋";
-const orange = "🍊";
+const 🍒 = "1";
+const 🍋  = "2";
+const  🍊 = "3";
 
 function randomEmoji() {
     const index = Math.floor(Math.random() * emojis.length);
