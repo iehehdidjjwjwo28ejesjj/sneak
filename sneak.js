@@ -1,5 +1,3 @@
-
-
 function start() {
- alert("ты проиграл лох")
+ alert("ты проиграл")
 }
