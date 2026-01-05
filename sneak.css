@@ -27,15 +27,16 @@
         .container {
             display: flex;
             flex-direction: column; 
-            align-items: 10px;
+            align-items: center;
             justify-content: center;
             height: 80dvh;
         }
 .line {
+    
+    width: 300px;
+    height: 200px;
     border: 2px solid red;
-    height: 35svh;
-    padding: 1px 70px;
-    border-radius: 30px;
+    border-radius: 8px;
 }
 
 .line:hover {
@@ -44,5 +45,4 @@
 
 .line:active {
     border: 2px solid green;
-}
-
+    }
