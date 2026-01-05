@@ -33,8 +33,8 @@ function win() {
         slot1.textContent === slot2.textContent &&
         slot2.textContent === slot3.textContent
     ) {
-        alert("ты выиграл");
+        balance += 100;
     } else {
-        alert("ты проиграл");
+        balance -= 100;
     }
 }
