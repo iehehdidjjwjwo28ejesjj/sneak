@@ -39,5 +39,6 @@ function win() {
     } else {
         balance -= 10;
     }
-    ball.textContent = answer;
+
+    ball.textContent = amount + balance;
 }
