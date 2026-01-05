@@ -26,3 +26,15 @@ slot1.textContent = '❔';
 slot2.textContent = '❔';
 slot3.textContent = '❔';
 
+let balance = 100
+
+function win() {
+    if slot1 = slot2 , slot2 = slot3
+    balance += 100 
+} else {
+    alert ("ты проиграль");
+    
+    
+    
+    
+
