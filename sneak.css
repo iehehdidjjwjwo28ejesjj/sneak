@@ -27,7 +27,23 @@
         .container {
             display: flex;
             flex-direction: column; 
-            align-items: center;
+            align-items: 10px;
             justify-content: center;
-            height: 100vh;
+            height: 80dvh;
         }
+.line {
+    border: 2px solid red;
+    height: 35dvh;
+    padding: 1px 70px;
+    border-radius: 30px;
+    background-color: gray;
+}
+
+.line:hover {
+    border: 2px solid blue;
+}
+
+.line:active {
+    border: 2px solid green;
+}
+
