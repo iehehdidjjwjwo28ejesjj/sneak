@@ -24,9 +24,11 @@ slot1.textContent = '❔';
 slot2.textContent = '❔';
 slot3.textContent = '❔';
 
-let balance = 100
+const amount = "БАЛАНС: ";
+let balance = 100;
 
-ball.textContent = balance;
+const answer = amount + balance;
+ball.textContent = answer;
 
 function win() {
     if (
@@ -37,5 +39,5 @@ function win() {
     } else {
         balance -= 10;
     }
-    ball.textContent = balance;
+    ball.textContent = answer;
 }
