@@ -9,7 +9,12 @@ function randomEmoji() {
     const index = Math.floor(Math.random() * emojis.length);
     return emojis[index];
 }
-
+function start() {
+    if (balance <= 0) {
+        alert("Баланс закончился");
+        return;
+    }
+    
 function start() {
     slot1.textContent = randomEmoji();
     slot2.textContent = randomEmoji();
