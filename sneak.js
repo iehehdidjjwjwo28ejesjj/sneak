@@ -30,7 +30,7 @@ let balance = 100
 
 function win() {
     if slot1 = slot2 , slot2 = slot3
-    balance += 100 
+    alert ("ты выиграль");
 } else {
     alert ("ты проиграль");
     
