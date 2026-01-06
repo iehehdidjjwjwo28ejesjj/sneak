@@ -16,9 +16,35 @@ function start() {
         return;
     }
 
+    button.disabled = true;
+
+    const steps = 60;
+    const delay = 30;
+    const slow = 1.05;
+
+    const final1 = randomEmoji();
+    const final2 = randomEmoji();
+    const final3 = randomEmoji();
+
+    let step = 0;
+
+    
+    function animate() {
+        step++;
+        
     slot1.textContent = randomEmoji();
     slot2.textContent = randomEmoji();
     slot3.textContent = randomEmoji();
+
+            if steps < step
+        delay *= slow
+        slot1.textContent = randomEmoji();
+    } else {
+
+    slot1.textContent = final1;
+    slot2.textContent = final2;
+    slot3.textContent = final3;
+
 
     win();
 }
