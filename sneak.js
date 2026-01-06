@@ -30,7 +30,7 @@ function start() {
     button.disabled = true;
 
     const steps =15 ;
-    let delay = 60;
+    let delay = 70;
     const slow = 1.1;
 
     const final1 = randomEmoji();
