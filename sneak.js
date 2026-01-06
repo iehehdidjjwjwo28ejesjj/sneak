@@ -36,8 +36,8 @@ function start() {
     slot2.textContent = randomEmoji();
     slot3.textContent = randomEmoji();
 
-            if steps < step
-        delay *= slow
+        if (steps < step) {
+        (delay *= slow)
         slot1.textContent = randomEmoji();
     } else {
 
