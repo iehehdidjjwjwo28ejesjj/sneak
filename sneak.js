@@ -47,6 +47,9 @@ function start() {
 
 
     win();
+
+    button.disabled = false;
+    }
 }
 
 const button = document.getElementById("button1");
