@@ -29,9 +29,9 @@ function start() {
 
     button.disabled = true;
 
-    const steps = 30;
-    let delay = 60;
-    const slow = 1.03;
+    const steps =1500 ;
+    let delay = 6000;
+    const slow = 1.005;
 
     const final1 = randomEmoji();
     const final2 = randomEmoji();
