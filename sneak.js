@@ -31,7 +31,7 @@ function start() {
 
     const steps = 30;
     let delay = 60;
-    const slow = 1.1;
+    const slow = 1.03;
 
     const final1 = randomEmoji();
     const final2 = randomEmoji();
