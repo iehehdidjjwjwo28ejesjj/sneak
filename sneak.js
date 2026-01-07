@@ -4,9 +4,9 @@ const slot3 = document.getElementById("slot3");
 const ball = document.getElementById("ball");
 const button = document.getElementById("button1");
 
-const emojis = ['🍒', '🍋', '🍊'];
+const emojis = ['🍒', '🍋', '🍊','❤️'];
 
-let balance = 100;
+let balance = 1000;
 const amount = "БАЛАНС: ";
 
 slot1.textContent = '❔';
@@ -28,8 +28,10 @@ function start() {
     }
 
     button.disabled = true;
+    button.classList.add('disabled-button');
+    button.value = "КРУЧЕНИЕ...";
 
-    const steps =30 ;
+    const steps = 30;
     let delay = 50;
     const slow = 1.07;
 
@@ -56,6 +58,8 @@ function start() {
 
             win();
             button.disabled = false;
+            button.classList.remove('disabled-button'); 
+            button.value = "КРУТИТЬ";
         }
     }
 
@@ -67,9 +71,9 @@ function win() {
         slot1.textContent === slot2.textContent &&
         slot2.textContent === slot3.textContent
     ) {
-        balance += 100;
+        balance += 1000;
     } else {
-        balance -= 10;
+        balance -= 100;
     }
 
     ball.textContent = amount + balance;
